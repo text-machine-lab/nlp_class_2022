@@ -118,9 +118,10 @@ kramdown:
   syntax_highlighter: rouge
 
 # to limit size of xml as it can grow quite large.
-# feed:
-#   posts_limit: 5 #default posts_limit: 10
-#   excerpt_only: true
+feed:
+  disable: true
+  posts_limit: 0 #default posts_limit: 10
+  excerpt_only: true
 
 exclude:
   - settings.ini
