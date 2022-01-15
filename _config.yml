@@ -39,8 +39,8 @@ baseurl: "/nlp_class_2022" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    twitter: arumshisky
+    github: text-machine-lab
 
 # Set this to true to get LaTeX math equation support
 use_math: 
