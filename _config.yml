@@ -84,7 +84,7 @@ html_escape:
 future: true
 theme: minima
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
   - jekyll-toc
@@ -118,9 +118,9 @@ kramdown:
   syntax_highlighter: rouge
 
 # to limit size of xml as it can grow quite large.
-feed:
-  posts_limit: 5 #default posts_limit: 10
-  excerpt_only: true
-  
+# feed:
+#   posts_limit: 5 #default posts_limit: 10
+#   excerpt_only: true
+
 exclude:
   - settings.ini
