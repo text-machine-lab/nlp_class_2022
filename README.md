@@ -6,7 +6,7 @@
 
 https://text-machine-lab.github.io/nlp_class_2022/
 
-# My Blog
+# NLP Class 2022 Website
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
@@ -14,15 +14,11 @@ _powered by [fastpages](https://github.com/fastai/fastpages)_
 
 ## What To Do Next?
 
-Great!  You have setup your repo.  Now its time to start writing content.  Some helpful links:
+Some helpful links:
 
-- [Writing Blogs With Jupyter](https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter)
+- [Writing Posts With Jupyter](https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter)
 
-- [Writing Blogs With Markdown](https://github.com/fastai/fastpages#writing-blog-posts-with-markdown)
-
-- [Writing Blog Posts With Word](https://github.com/fastai/fastpages#writing-blog-posts-with-microsoft-word)
-
-- [(Optional) Preview Your Blog Locally](_fastpages_docs/DEVELOPMENT.md)
+- [Writing Posts With Markdown](https://github.com/fastai/fastpages#writing-blog-posts-with-markdown)
 
 Note: you may want to remove example blog posts from the `_posts`,  `_notebooks` or `_word` folders (but leave them empty, don't delete these folders) if you don't want these blog posts to appear on your site.
 
