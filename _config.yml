@@ -120,6 +120,7 @@ kramdown:
 # to limit size of xml as it can grow quite large.
 feed:
   disable: true
+  hide: true
   posts_limit: 0 #default posts_limit: 10
   excerpt_only: true
 
