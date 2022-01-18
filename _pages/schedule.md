@@ -17,8 +17,8 @@ permalink: /schedule/
 | Mar 8      | No Class, Spring break    |               |                 |               | 
 | Mar 15     | Pre-training in NLP       |               | Applying BERT           |               | 
 | Mar 22     | Fancy pre-training        |               | Summarization with T5   |               | 
-| Mar 29     |                           |               | Project proposal        |               | 
-| Apr 5      |                           |               | Supervised project work |               | 
+| Mar 29     | Scale in NLP              |               | Project proposal        |               | 
+| Apr 5      | Topics                    |               | Supervised project work |               | 
 | Apr 12     | Guest Lecture / Topics    |               | Supervised project work |               | 
 | Apr 19     | Guest Lecture / Topics    |               | Supervised project work |               | 
 | Apr 26     | Guest Lecture / Topics    |               | Supervised project work |               | 
