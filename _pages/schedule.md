@@ -7,21 +7,21 @@ permalink: /schedule/
 
 | Date       | Lecture Topic             |    Slides     | Homework      |     Quiz      |
 |---|----|----|----|----|
-| Jan 18     | Intro to NLP              |               |               |               | 
-| Jan 25     | Classical NLP             |               |               |               | 
-| Feb 1      | Neural networks 101       |               |               |               |  
-| Feb 8      | Neural networks 102       |               |               |               | 
-| Feb 15     |                           |               |               |               | 
+| Jan 18     | Intro to NLP              |               | Setting up the environment |               | 
+| Jan 25     | Lexical embeddings        |               | Sentiment analysis with logistic regression | [quiz 1](https://forms.gle/EGzW1kz9LDTdiaag8) | 
+| Feb 1      | Neural networks 101       |               | Fully-connected neural networks for text classification |               |
+| Feb 8      | Neural networks 201       |               | Babysitting neural networks |               | 
+| Feb 15     | Attention mechanism       |               | Language modeling |               | 
 | Feb 22     | No Class, Monday schedule |               |               |               | 
-| Mar 1      |                           |               |               |               | 
-| Mar 8      | No Class, Spring break    |               |               |               | 
-| Mar 15     |                           |               |               |               | 
-| Mar 22     |                           |               |               |               | 
-| Mar 29     |                           |               |               |               | 
-| Apr 5      |                           |               |               |               | 
-| Apr 12     | Guest Lecture / Topics    |               |               |               | 
-| Apr 19     | Guest Lecture / Topics    |               |               |               | 
-| Apr 26     | Guest Lecture / Topics    |               |               |               | 
+| Mar 1      | Sequence to sequence networks     |               | Machine translation |               | 
+| Mar 8      | No Class, Spring break    |               |                 |               | 
+| Mar 15     | Pre-training in NLP       |               | Applying BERT           |               | 
+| Mar 22     | Fancy pre-training        |               | Summarization with T5   |               | 
+| Mar 29     |                           |               | Project proposal        |               | 
+| Apr 5      |                           |               | Supervised project work |               | 
+| Apr 12     | Guest Lecture / Topics    |               | Supervised project work |               | 
+| Apr 19     | Guest Lecture / Topics    |               | Supervised project work |               | 
+| Apr 26     | Guest Lecture / Topics    |               | Supervised project work |               | 
 | May 3      | Presentations             |               |               |               |
 
 
