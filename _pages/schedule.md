@@ -6,7 +6,7 @@ permalink: /schedule/
 
 
 | Date       | Lecture Topic             |    Slides     | Homework      |     Quiz      |
-| :---       |    :----:                 |    :----:     |    :----:     |    :----:     |
+|---|----|----|----|----|
 | Jan 18     | Intro to NLP              |               |               |               | 
 | Jan 25     | Classical NLP             |               |               |               | 
 | Feb 1      | Neural networks 101       |               |               |               |  
@@ -25,5 +25,6 @@ permalink: /schedule/
 | May 3      | Presentations             |               |               |               |
 
 
-Homeworks are due at midnight on the day before the next lecture.
-Quizzes are due immediately before the next lecture.
+* Homeworks are due at midnight on the day before the next lecture.
+* Quizzes are due immediately before the next lecture.
+* Homeworks must be submitted via Blackboard; you must submit a PDF of your homework and a link to a Github repository with your code.
