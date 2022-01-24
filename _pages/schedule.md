@@ -7,7 +7,7 @@ permalink: /schedule/
 
 | Date       | Lecture Topic             |    Slides     | Homework      |     Quiz      |
 |---|----|----|----|----|
-| Jan 18     | Intro to NLP              |  lecture, [lab](https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/01/18/Setting-up-the-environment.html), [GPT-3 demo](https://beta.openai.com/playground)             | Setting up the environment |               | 
+| Jan 18     | Intro to NLP              |  [lecture](https://drive.google.com/drive/folders/1Rl8xpC_M4ljdqHtXym7ynK7_2jZvScuS?usp=sharing), [lab](https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/01/18/Setting-up-the-environment.html), [GPT-3 demo](https://beta.openai.com/playground)             | Setting up the environment |               | 
 | Jan 25     | Lexical embeddings        |               | Sentiment analysis with logistic regression | [quiz 1](https://forms.gle/EGzW1kz9LDTdiaag8) | 
 | Feb 1      | Neural networks 101       |               | Fully-connected neural networks for text classification |               |
 | Feb 8      | Neural networks 201       |               | Babysitting neural networks |               | 
