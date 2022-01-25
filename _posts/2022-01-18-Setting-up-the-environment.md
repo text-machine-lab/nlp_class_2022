@@ -48,8 +48,10 @@ conda activate nlp_class
 
 **Step 9.** Install required libraries.
 
+(Updated Jan 25, added `ipywidgets` that is required for `datasets` widgets to work inside jupyter lab.)
+
 ```
-python -m pip install jupyterlab torch transformers datasets scikit-learn
+python -m pip install jupyterlab torch transformers datasets scikit-learn ipywidgets
 ```
 
 **Step 10.** Install a new kernel to a jupyter lab.
