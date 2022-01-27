@@ -57,8 +57,10 @@ python -m pip install jupyterlab torch transformers datasets scikit-learn ipywid
 **Step 10.** Install a new kernel to a jupyter lab.
 
 ```
-python -m ipykernel install --name nlp_class
+python -m ipykernel install --name nlp_class --user
 ```
+
+(Updated Jan 27, added `--user` option to the commend which resolves `/usr/local/share permission denied` issue some students had)
 
 **NOTE:** If step 10 fails, ask Vlad for help.
 
