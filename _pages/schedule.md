@@ -9,7 +9,7 @@ permalink: /schedule/
 |---|----|----|----|----|
 | Jan 18     | Intro to NLP              |  [lecture](https://drive.google.com/drive/folders/1Rl8xpC_M4ljdqHtXym7ynK7_2jZvScuS?usp=sharing), [GPT-3 demo](https://beta.openai.com/playground)             | [Setting up the environment](https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/01/18/Setting-up-the-environment.html) |               | 
 | Jan 25     | Lexical embeddings        | [ML review](https://drive.google.com/file/d/1iYIx9m-oQJuP78tTv2qWfEaqo39N0-3V/view?usp=sharing), [lecture 2](https://drive.google.com/file/d/1pZW_ULTlolfBmmfNKyiOQEfXcg8mt8yh/view?usp=sharing)              | [Sentiment analysis with logistic regression](https://drive.google.com/file/d/1ThpCQIJ4md_cgUtkbWR-jmQe8RjEfxgF/view?usp=sharing) | [quiz 1](https://forms.gle/EGzW1kz9LDTdiaag8) | 
-| Feb 1      | Neural networks 101       | [lecture](](https://docs.google.com/presentation/d/179fRcOUa8UFu3sMcsC1DAGS9Fmb9n5jLtepPTmzHZ2I/edit?usp=sharing))               | [Neural networks from scratch](https://drive.google.com/file/d/1_TLd17Ws_hK5w1PjAO-_ChdPIbk5U4l_/view?usp=sharing)   |
+| Feb 1      | Neural networks 101       | [lecture](https://docs.google.com/presentation/d/179fRcOUa8UFu3sMcsC1DAGS9Fmb9n5jLtepPTmzHZ2I/edit?usp=sharing)               | [Neural networks from scratch](https://drive.google.com/file/d/1_TLd17Ws_hK5w1PjAO-_ChdPIbk5U4l_/view?usp=sharing)   |
 | Feb 8      | Neural networks 201       |               | Fully-connected neural networks for text classification |               | 
 | Feb 15     | Attention mechanism       |               | Language modeling |               | 
 | Feb 22     | No Class, Monday schedule |               |               |               | 
