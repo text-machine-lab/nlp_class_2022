@@ -13,7 +13,7 @@ permalink: /schedule/
 | Feb 8      | Neural networks 201       |  [lecture 4](https://docs.google.com/presentation/d/1Tch4YI7OPIAFjPullqLkgRw5BnSiAv1iMRb6reAvp0A)             | [Fully-connected neural networks for text classification](https://drive.google.com/file/d/1fa665KQsHaP1Sf2fOLniInv_8q8-GoQW/view?usp=sharing) |   [quiz 3](https://forms.gle/2hL3RHp4aipapP9d9)            | 
 | Feb 15     | Attention mechanism       |  [lecture 5](https://docs.google.com/presentation/d/104rOm5SMux-_TflNY4dkuMsQSjcbfYsQScSsb8vhVPc/edit#slide=id.g1118af2be07_1_133), [notes](https://docs.google.com/document/d/1091-M9THl6U5sbs16M_K4d2JRYSmtYFe51Vdgfn-Rnw/edit#heading=h.61tgumf7n6iw)  | [Language modeling](https://drive.google.com/file/d/1C_9ZA5FOdrPMKFcP4hlLtFEHrVU9xgy0) |  [quiz 4](https://forms.gle/BLzpT7tAXNXeUJVt7)             | 
 | Feb 22     | No Class, Monday schedule |               |               |               | 
-| Mar 1      | Sequence to sequence networks     |               | Machine translation |               | 
+| Mar 1      | Sequence to sequence networks     |               | Machine translation | [quiz 5](https://forms.gle/mEkJR6vu8YeUbsUz8) | 
 | Mar 8      | No Class, Spring break    |               |                 |               | 
 | Mar 15     | Pre-training in NLP       |               | Applying BERT           |               | 
 | Mar 22     | Fancy pre-training        |               | Summarization with T5   |               | 
