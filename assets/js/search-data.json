@@ -1,0 +1,59 @@
+{
+  
+    
+        "post0": {
+            "title": "Setting up the environment",
+            "content": "If you already have anaconda/conda/miniconda/conda-forge, proceed to step 7. . Step 1. Download conda installer. . wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh . NOTE 1a: if this fails with “wget: command not found” install wget via “sudo apt install wget” (Ubuntu) or “brew install wget” (MacOS). Then try to do step 1 again. . NOTE 1b: alternatively, you can just follow the link above using your browser and download the file this way. . Step 2. Install miniconda. . bash ~/miniconda.sh . Step 3. Read and accept all licences. Step 4. When asked where to install conda, just press enter to install it in the default directory. Step 5. IMPORTANT: Then it will ask you “Do you wish the installer to initialize Miniconda3”. Type “yes” and press enter. Step 6. IMPORTANT: Restart your terminal session – open and close your terminal window. . NOTE: If you don’t want conda to start base envorinment in every terminal you open, you can execute conda config --set auto_activate_base false. . Step 7. Create a new environment nlp_class with python 3.7. . conda create --name nlp_class python=3.7 . NOTE: If you have conda not found error, it might mean you skipped step 5 and now need to add conda to your PATH manually. It it easy to do, here’s a solution. . Step 8. Activate this environment. . conda activate nlp_class . Step 9. Install required libraries. . (Updated Jan 25, added ipywidgets that is required for datasets widgets to work inside jupyter lab.) . python -m pip install jupyterlab torch transformers datasets scikit-learn ipywidgets . Step 10. Install a new kernel to a jupyter lab. . python -m ipykernel install --name nlp_class --user . (Updated Jan 27, added --user option to the commend which resolves /usr/local/share permission denied issue some students had) . NOTE: If step 10 fails, ask Vlad for help. . Step 11. Launch jupyter lab. . jupyter lab . This should open a browser tab with Jupyter Lab running. . Step 12. On the right, you will see a couple of available notebook enviornments under “Notebook” title. Select “nlp_class” and create a new notebook. . Step 13. Make sure all imports work. To do this execute the following code. . import torch import sklearn import transformers import datasets . If this fails, ask Vlad for help. . Now you should be good to go. If you are wondering why we need conda and environments, you can read this blogpost. .",
+            "url": "https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/01/18/Setting-up-the-environment.html",
+            "relUrl": "/markdown/2022/01/18/Setting-up-the-environment.html",
+            "date": " • Jan 18, 2022"
+        }
+        
+    
+  
+
+  
+  
+
+  
+
+  
+      ,"page2": {
+          "title": "Course Schedule",
+          "content": "Date Lecture Topic Slides Homework Quiz . Jan 18 | Intro to NLP | lecture 1, GPT-3 demo | Setting up the environment |   | . Jan 25 | Lexical embeddings | ML review, lecture 2 | Sentiment analysis with logistic regression | quiz 1 | . Feb 1 | Neural networks 101 | lecture 3 | Neural networks from scratch | quiz 2 | . Feb 8 | Neural networks 201 | lecture 4 | Fully-connected neural networks for text classification | quiz 3 | . Feb 15 | Attention mechanism | lecture 5, notes | Language modeling | quiz 4 | . Feb 22 | No Class, Monday schedule |   |   |   | . Mar 1 | Sequence to sequence networks | lecture 6 |   | quiz 5 | . Mar 8 | No Class, Spring break |   |   |   | . Mar 15 | Transfer Learning in NLP | lecture 7 |   |   | . Mar 22 | Guest Lecture, Alexey Romanov, Neural Ranking |   | Summarization with T5 | quiz 6 | . Mar 29 | Scale in NLP |   | Project proposal |   | . Apr 5 | Topics |   | Supervised project work |   | . Apr 12 | Guest Lecture / Topics |   | Supervised project work |   | . Apr 19 | Guest Lecture / Topics |   | Supervised project work |   | . Apr 26 | Guest Lecture / Topics |   | Supervised project work |   | . May 3 | Presentations |   |   |   | . Homeworks are due at midnight on the day before the next lecture. | Quizzes are due immediately before the next lecture. | Homeworks must be submitted via Blackboard; you must submit a PDF of your homework and a link to a Github repository with your code. | .",
+          "url": "https://text-machine-lab.github.io/nlp_class_2022/schedule/",
+          "relUrl": "/schedule/",
+          "date": ""
+      }
+      
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+      ,"page9": {
+          "title": "",
+          "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
+          "url": "https://text-machine-lab.github.io/nlp_class_2022/robots.txt",
+          "relUrl": "/robots.txt",
+          "date": ""
+      }
+      
+  
+
+}

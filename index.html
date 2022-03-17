@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Natural Language Processing | UMass Lowell COMP 4420/5420</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Natural Language Processing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="UMass Lowell COMP 4420/5420" />
+<meta property="og:description" content="UMass Lowell COMP 4420/5420" />
+<link rel="canonical" href="https://text-machine-lab.github.io/nlp_class_2022/" />
+<meta property="og:url" content="https://text-machine-lab.github.io/nlp_class_2022/" />
+<meta property="og:site_name" content="Natural Language Processing" />
+<meta property="og:image" content="https://text-machine-lab.github.io/nlp_class_2022/images/logo.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://text-machine-lab.github.io/nlp_class_2022/images/logo.png" />
+<meta property="twitter:title" content="Natural Language Processing" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"UMass Lowell COMP 4420/5420","headline":"Natural Language Processing","image":"https://text-machine-lab.github.io/nlp_class_2022/images/logo.png","name":"Natural Language Processing","url":"https://text-machine-lab.github.io/nlp_class_2022/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/nlp_class_2022/assets/css/style.css">
+  <!--<link type="application/atom+xml" rel="alternate" href="https://text-machine-lab.github.io/nlp_class_2022/feed.xml" title="Natural Language Processing" />-->
+  <!----><link rel="shortcut icon" type="image/x-icon" href="/nlp_class_2022/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/nlp_class_2022/">Natural Language Processing</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/nlp_class_2022/schedule/">Course Schedule</a><a class="page-link" href="/nlp_class_2022/search/">Search</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><h1 id="comp-44205420-natural-language-processing---umass-lowell-spring-2022">COMP 4420/5420 Natural Language Processing - UMass Lowell Spring 2022</h1>
+
+<h2 id="course-description">Course Description:</h2>
+
+<p>Text is everywhere, and the overload of digital information in our century makes automated processing of text an imperative, whether you are searching for information on the web, trying to understand patterns of interaction in social media and digital communities, need to translate news from another language, or wish to evaluate different treatment options for a particular medical condition.  In this course, we will learn the principles and theory behind the contemporary technology, covering the many applications of automatic text processing, from information retrieval to machine translation.  You will have a chance to build a practical system for the application of your choice.  We will emphasize the developing statistical models for various tasks using large collections of texts, with a particular focus on deep learning techniques.</p>
+
+<p>Pre-requisite: COMP 4220 / COMP 5220 Machine Learning or equivalent (with permission of instructor).</p>
+
+<h2 id="list-of-topics">List of Topics:</h2>
+
+<ul>
+  <li>Why to use machine learning for language processing</li>
+  <li>Sparse and dense word vector representations</li>
+  <li>Logistic regression, fully-connected neural networks</li>
+  <li>Text pre-processing, tokenization, subword tokenizers</li>
+  <li>Language models</li>
+  <li>Attention, transformer networks</li>
+  <li>Machine translation, sequence-to-sequence neural networks</li>
+  <li>Pre-training for NLP: GPT, BERT</li>
+  <li>Text-to-text NLP: T5</li>
+  <li>Scaling effects of language models, unsupservised task acquisition</li>
+  <li>Tasks / Applications
+    <ul>
+      <li>Text classification</li>
+      <li>Machine translation</li>
+      <li>Natural language inference</li>
+      <li>Question answering</li>
+      <li>Summarization</li>
+      <li>Search</li>
+      <li>Text generation</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Course schedule</strong> could be found <a href="https://text-machine-lab.github.io/nlp_class_2022/schedule/">here</a> (subject to change).</p>
+
+<p><strong>Please join our Slack group,</strong> the link could be found in the class <a href="https://uml.umassonline.net/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_11_1">Blackboard</a>.</p>
+
+<p><strong>All class announcements will be posted on Slack.</strong></p>
+
+<h2 id="class-meets">Class meets</h2>
+
+<p>Mon 3:30 - 6:20 pm (with a 15-minute break)</p>
+
+<p>Room: Falmouth 309</p>
+
+<p><strong>Class format</strong></p>
+
+<p>Each class will consist of</p>
+<ul>
+  <li>Quiz review and Q&amp;A (10 minutes)</li>
+  <li>Lecture (80 min)</li>
+  <li>Practicum/Lab (60 min)</li>
+</ul>
+
+<p>There will be a 15-minute break after the lecture.</p>
+
+<p>During the Practicum/Lab segment of the class, we will focus on technical (coding) skills and provide homework guidance. 
+You will be expected to work on your homework during this time.</p>
+
+<h2 id="staff">Staff</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Name</th>
+      <th>Contact</th>
+      <th>Office</th>
+      <th>Office hours</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Instructor</td>
+      <td>Anna Rumshisky</td>
+      <td>arumshisky@gmail.com</td>
+      <td>Dandeneau 318</td>
+      <td>TBA</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>TA</td>
+      <td>Vlad Lialin</td>
+      <td>vlialin@cs.uml.edu</td>
+      <td>Dandeneau 415</td>
+      <td>Mon 2pm - 4pm</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>TA</td>
+      <td>Namrata Shivagunde</td>
+      <td>Namrata_Shivagunde@student.uml.edu</td>
+      <td>Dandeneau 415</td>
+      <td>TBA</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="covid-safety">COVID Safety</h2>
+
+<ul>
+  <li>Since some of us have high-risk family members at home, we ask that you wear KN95 masks in class.</li>
+  <li>If you do not have a KN95 mask, two masks may be requested <a href="https://www.uml.edu/sso/auth/signin?returnUrl=%2Fservice%2FApps%2FEEM%2FCovidSupplies%2FRequest">here</a></li>
+  <li>If you have been in contact with someone who tested positive for COVID, PLEASE DO NOT COME TO CLASS.</li>
+  <li>To join remotely, please contact us and we will send you a zoom link for you to join the class remotely (also posted on Blackboard).<br />
+Note that it might be difficult to ask questions and participate interactively if you join the class via zoom.</li>
+</ul>
+
+<h2 id="remote-learning">Remote learning</h2>
+
+<p>Class recordings will be available on Echo (you need to log in with your University logon):</p>
+
+<p><a href="https://echo360.org/home">Echo recordings</a></p>
+
+<h2 id="textbook">Textbook</h2>
+
+<p>Reading materials will be made available include via the course website in electronic forms.</p>
+
+<p>We may use selections from the following NLP textbooks:</p>
+
+<ul>
+  <li><a href="https://web.stanford.edu/~jurafsky/slp3/">Jurafky &amp; Martin 2021. Speech and Natural Language Processing</a></li>
+  <li><a href="https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf">Eisenstein 2018. Natural Language Processing.</a></li>
+</ul>
+
+<p>Cheat sheets:</p>
+
+<ul>
+  <li><a href="https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning">Machine learning cheat sheet</a></li>
+  <li><a href="https://d2l.ai/chapter_preliminaries/index.html">Review: Math preliminaries</a></li>
+  <li><a href="http://datasciencefree.com/python.pdf">Python cheat sheet</a></li>
+  <li><a href="http://datacamp-community-prod.s3.amazonaws.com/ba1fe95a-8b70-4d2f-95b0-bc954e9071b0"><code class="language-plaintext highlighter-rouge">Numpy</code> cheat shet</a></li>
+  <li><a href="https://d2l.ai/chapter_appendix-mathematics-for-deep-learning/index.html">Review: Mathematics for deep learning</a></li>
+  <li><a href="https://www.freecodecamp.org/news/git-and-github-for-beginners/">Github for beginners</a></li>
+  <li><a href="https://dangitgit.com/en">Github help</a></li>
+</ul>
+
+<h2 id="grading">Grading</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Homeworks &amp; quizzes</td>
+      <td>60%</td>
+    </tr>
+    <tr>
+      <td>Research Paper Presentations</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>Final Project</td>
+      <td>30%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There will be no final or midterm.</p>
+
+<h2 id="homeworks">Homeworks</h2>
+
+<ul>
+  <li>We will have 6-7 homeworks.</li>
+  <li>Homeworks are due at midnight on the day before the next lecture.</li>
+  <li>Homeworks will be posted on the course website and linked from the course schedule</li>
+  <li>Homeworks must be submitted via Blackboard; you must submit a PDF of your homework and a link to a Github repository with your code.</li>
+</ul>
+
+<h2 id="quizzes">Quizzes</h2>
+
+<ul>
+  <li>We will have take-home quizzes after every lecture</li>
+  <li>Quizzes are due immediately before the next lecture</li>
+  <li>Quizzes will be posted on the course website</li>
+</ul>
+
+<h2 id="research-paper-presentations">Research Paper Presentations</h2>
+
+<ul>
+  <li>Each student will be required to present a research paper assigned as readings for the class.</li>
+  <li>More information about the research paper presentations can be found <a href="https://text-machine-lab.github.io/nlp_class_2022/paper-presentations.html">here</a>.</li>
+</ul>
+
+<h2 id="final-projects">Final Projects</h2>
+
+<ul>
+  <li>You will have several alternatives for the final project.</li>
+  <li>Projects will be done in groups of 2.</li>
+</ul>
+
+<h2 id="late-policy">Late Policy:</h2>
+
+<ul>
+  <li>Quizzes can not be submitted late.</li>
+  <li>Homeworks will be accepted up to 2 (two) days after the original due date.</li>
+  <li>Homeworks submitted up to 1 full day late will be graded at a 10% reduction.</li>
+  <li>Homeworks submitted up to 2 full days late will be graded at a 20% reduction.</li>
+  <li>After 2 days, Homeworks will not be accepted.</li>
+</ul>
+
+<h2 id="collaboration-policy">Collaboration Policy:</h2>
+
+<ul>
+  <li>Homeworks and quizzes must be done individually.</li>
+  <li>Projects can be done in groups of two.</li>
+</ul>
+
+<p>For the work submitted by a group, please also include a description of what was done by each group member.</p>
+
+<p>Violating the collaboration policy by copying other people’s work, as well as any other instance of cheating, 
+including copying solutions from existing sources, carries the following penalties: (1) First violation leads 
+to getting zero credit for the submitted assignment (2) Second violation leads to failing the course.</p>
+
+
+
+  
+
+  <!-- Hide posts if front matter flag hide:true -->
+  
+  
+
+  <!-- Sort posts by rank, then date -->
+  
+  
+  
+
+ 
+  
+
+   <!-- Assemble final sorted posts array -->
+  
+  <ul class="post-list"><li><h3>
+    <a class="post-link" href="/nlp_class_2022/markdown/2022/01/18/Setting-up-the-environment.html">
+    Setting up the environment
+    </a>
+</h3><p class="post-meta-description">Installing conda and creating a new environment.</p><p class="post-meta">Jan 18, 2022</p>
+</li></ul>
+
+    </div>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/nlp_class_2022/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/nlp_class_2022/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>UMass Lowell COMP 4420/5420</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/text-machine-lab" target="_blank" title="text-machine-lab"><svg class="svg-icon grey"><use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/arumshisky" target="_blank" title="arumshisky"><svg class="svg-icon grey"><use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

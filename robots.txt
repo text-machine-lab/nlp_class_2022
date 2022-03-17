@@ -1,0 +1,1 @@
+Sitemap: https://text-machine-lab.github.io/nlp_class_2022/sitemap.xml
