@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Homework 5 Instructions | Natural Language Processing</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Homework 5 Instructions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Machine translation with transformer networks" />
+<meta property="og:description" content="Machine translation with transformer networks" />
+<link rel="canonical" href="https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/03/17/Homework-5-instructions.html" />
+<meta property="og:url" content="https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/03/17/Homework-5-instructions.html" />
+<meta property="og:site_name" content="Natural Language Processing" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-17T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Homework 5 Instructions" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-17T00:00:00-05:00","datePublished":"2022-03-17T00:00:00-05:00","description":"Machine translation with transformer networks","headline":"Homework 5 Instructions","mainEntityOfPage":{"@type":"WebPage","@id":"https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/03/17/Homework-5-instructions.html"},"url":"https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/03/17/Homework-5-instructions.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/nlp_class_2022/assets/css/style.css">
+  <!--<link type="application/atom+xml" rel="alternate" href="https://text-machine-lab.github.io/nlp_class_2022/feed.xml" title="Natural Language Processing" />-->
+  <!----><link rel="shortcut icon" type="image/x-icon" href="/nlp_class_2022/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/nlp_class_2022/">Natural Language Processing</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/nlp_class_2022/schedule/">Course Schedule</a><a class="page-link" href="/nlp_class_2022/search/">Search</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Homework 5 Instructions</h1><p class="page-description">Machine translation with transformer networks</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-03-17T00:00:00-05:00" itemprop="datePublished">
+        Mar 17, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      9 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/nlp_class_2022/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#homework-5-transformer-machine-translation-model">Homework 5. Transformer machine translation model</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#1-implement-cross-attention-decoder-layer-and-transformer-encoder-decoder-model">1. Implement Cross-Attention, Decoder Layer, and Transformer Encoder-Decoder Model</a></li>
+<li class="toc-entry toc-h2"><a href="#2-train-tokenizers-for-your-dataset">2. Train tokenizers for your dataset</a></li>
+<li class="toc-entry toc-h2"><a href="#3-train-a-transformer-machine-translation-model">3. Train a Transformer Machine Translation Model</a></li>
+<li class="toc-entry toc-h2"><a href="#try-out-your-model">Try out your model</a></li>
+<li class="toc-entry toc-h2"><a href="#hyperparameters">Hyperparameters</a></li>
+<li class="toc-entry toc-h2"><a href="#connecting-to-google-cloud">Connecting to Google Cloud</a></li>
+<li class="toc-entry toc-h2"><a href="#how-to-keep-running-commands-after-ssh-session-disconnection">How To Keep Running Commands After SSH Session Disconnection</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#how-to-sync-your-laptop-code-and-server-code">How to sync your laptop code and server code</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#setting-up-the-environment">Setting up the environment</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#submitting-this-homework">Submitting this homework</a></li>
+</ul><h1 id="homework-5-transformer-machine-translation-model">
+<a class="anchor" href="#homework-5-transformer-machine-translation-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework 5. Transformer machine translation model</h1>
+
+<blockquote>
+  <p>Do not modify code outside <code class="language-plaintext highlighter-rouge"># YOUR CODE STARTS HERE</code> unless explicitly allowed by a TA. Failure to follow this will lead to failing the homework.</p>
+</blockquote>
+
+<p>In this homework, we will finish Transformer implementation and train a machine translation model.</p>
+
+<p>We have tested this code with a cleaned version of the WMT-14 English-German dataset (<code class="language-plaintext highlighter-rouge">stas/wmt14-en-de-pre-processed</code>).
+It is a medium-size dataset that contains 802.743 sentence pairs which are enough to train a decent translation system.</p>
+
+<blockquote>
+  <p>If you want to use a different language pair, please ask TA for a dataset recommendation (it can be hard to find a reasonably sized dataset, 10Mb is not enough and 20Gb is just hard to work with). If you want to use your own dataset, inform TA about it too.</p>
+</blockquote>
+
+<h2 id="1-implement-cross-attention-decoder-layer-and-transformer-encoder-decoder-model">
+<a class="anchor" href="#1-implement-cross-attention-decoder-layer-and-transformer-encoder-decoder-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Implement Cross-Attention, Decoder Layer, and Transformer Encoder-Decoder Model</h2>
+<p>Start with <code class="language-plaintext highlighter-rouge">notebooks/01_transformer_decoder.ipynb</code>. It contains guides and instructions to implementing cross-attention within a multi-head attention class. You will need to implement the rest of the Transformer architecture, including <code class="language-plaintext highlighter-rouge">TransformerDecoderLayer</code> and <code class="language-plaintext highlighter-rouge">TransformerEncoderDecoderModel</code>.Your implementation should pass all of the tests.</p>
+
+<p>There are 8 coding tasks in this part.</p>
+
+<h2 id="2-train-tokenizers-for-your-dataset">
+<a class="anchor" href="#2-train-tokenizers-for-your-dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Train tokenizers for your dataset</h2>
+
+<p>Go to <code class="language-plaintext highlighter-rouge">cli/create_tokenizer</code> and complete the script. Then train a tokenizer.</p>
+
+<p>Command example:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python cli/create_tokenizer.py <span class="se">\</span>
+    <span class="nt">--dataset_name</span> stas/wmt14-en-de-pre-processed <span class="se">\</span>
+    <span class="nt">--dataset_config</span> ende <span class="se">\</span>
+    <span class="nt">--vocab_size</span> 32_000 <span class="se">\</span>
+    <span class="nt">--save_dir</span> en_de_output_dir <span class="se">\</span>
+    <span class="nt">--source_lang</span> en <span class="se">\</span>
+    <span class="nt">--target_lang</span> de
+
+</code></pre></div></div>
+
+<p>Because the dataset is large, this can take 5 minutes or more. Start worrying if it does not finish after 1 hour.</p>
+
+<h2 id="3-train-a-transformer-machine-translation-model">
+<a class="anchor" href="#3-train-a-transformer-machine-translation-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Train a Transformer Machine Translation Model</h2>
+
+<p>Open <code class="language-plaintext highlighter-rouge">notebooks/02_get_familiar_with_train.ipynb</code> and read it carefully. It will guide you through the script and help you to solve 3 coding tasks and 3 inline questions.</p>
+
+<p>After finishing all of the tasks is time to train a model.</p>
+
+<p>In the beginning, try out a very small (2 layers) model in <code class="language-plaintext highlighter-rouge">--debug</code> mode to make sure the script can finish without failing. Then, find the largest batch size your GPU memory can fit and the largest learning rate that does not cause your model to diverge. Also feel free to play with any other hyperparameters, such as model size learning rate schedule, regularization, and so on.</p>
+
+<p>When selecting the number of epochs, remember that the dataset is big. 1 epoch can take 6 hours or even more even on capable hardware. However, because the dataset is so large, 1 epoch might be enough to get a model that performs ok(-ish) with a BLEU score of around 20. Alternatively to the number of epochs, you can provide <code class="language-plaintext highlighter-rouge">--max_train_steps</code>.</p>
+
+<p>Here’s an example script that works ok(-ish)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python cli/train.py \
+    --dataset_name stas/wmt14-en-de-pre-processed \
+    --dataset_config ende \
+    --source_lang en \
+    --target_lang de \
+    --output_dir en_de_output_dir \
+    --batch_size 64 \
+    --num_warmup_steps 5000 \
+    --learning_rate 3e-4 \
+    --num_train_epochs 1 \
+    --eval_every 5000
+</code></pre></div></div>
+
+<h2 id="try-out-your-model">
+<a class="anchor" href="#try-out-your-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Try out your model</h2>
+
+<p>After training, use <code class="language-plaintext highlighter-rouge">notebooks/03_interact.ipynb</code> to translate texts using your model. This part is evaluated and (we hope) might be rewarding, as the final system should produce reasonable translations, please do not skip it.</p>
+
+<h2 id="hyperparameters">
+<a class="anchor" href="#hyperparameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyperparameters</h2>
+
+<p>Feel free to change hyperparameters, but remember that:</p>
+<ul>
+  <li>It takes hours to train a single model using a GPU.
+    <ul>
+      <li>Meaning you need to start training at least a day or two before the deadline</li>
+      <li>Meaning you won’t be able to play with hyperparameters a lot</li>
+      <li>Meaning you can’t use your laptop (Core i9 laptop needs more than 100hours to train the model)</li>
+      <li>Meaning you need to learn how to work with a GPU server.</li>
+    </ul>
+  </li>
+  <li>Smaller models are faster to train until convergence, but larger models sometimes can reach the same loss in fewer steps and less time.</li>
+  <li>Try to maximize your batch size and fill all of the GPU memory.
+    <ul>
+      <li>Batch size should be at least 8 and preferably around 64 or even more.</li>
+      <li>If you see an out-of-memory error, probably your batch size or max_length or your network parameters are too big. Do not reduce max_length beyond 128.</li>
+      <li>To reduce memory consumption, you can use Adafactor optimizer instead of Adam. Here is the <a href="https://huggingface.co/docs/transformers/main_classes/optimizer_schedules#transformers.Adafactor">documentation on how to use it</a>
+</li>
+    </ul>
+  </li>
+  <li>Keep all of your shapes and sizes divisible by 8, this makes the GPUs a bit more efficient.</li>
+  <li>You can use an empirical <a href="https://arxiv.org/abs/2001.08361">scaling law</a> to estimate your learning rate <code class="language-plaintext highlighter-rouge">lr = 0.003239 - 0.0001395 log(N)</code>. Here, N is the number of parameters of your model, excluding embeddings (should be around 1-100M if you are using something like a small or base transformer).</li>
+  <li>Your final model will be evaluated based on its BLEU score.</li>
+</ul>
+
+<p>Finally, run <code class="language-plaintext highlighter-rouge">cli/train.py</code> and provide your selected hyperparameters to it. Save your model to <code class="language-plaintext highlighter-rouge">output_dir</code>.</p>
+
+<p><strong>Monitor your model performance while it is training</strong> in WadnB. This is literally the main purpose of this tool. If the model is not improving at all or is diverging, look up our “my model does not converge” checklist from Lecture 3. At the same time, if you get a very high test accuracy, your model might be cheating and your causal masking or data preprocessing is not implemented correctly. To help you understand what the correct training loss plot and eval perplexity/accuracy should look like, we will post a couple of images in Slack. Your runs will most probably look different, because of different hyperparameters, but they should not be extremely different.</p>
+
+<blockquote>
+  <p>To interrupt the script, press CTRL+C</p>
+</blockquote>
+
+<blockquote>
+  <p>You can download your model and tokenizer from the server to your laptop using <code class="language-plaintext highlighter-rouge">scp</code> command-line tool (<a href="https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/">how to use it</a>).</p>
+</blockquote>
+
+<h2 id="connecting-to-google-cloud">
+<a class="anchor" href="#connecting-to-google-cloud" aria-hidden="true"><span class="octicon octicon-link"></span></a>Connecting to Google Cloud</h2>
+
+<p>Please use Google Cloud for this homework.</p>
+
+<p>Follow this Stanford tutorial on how to connect to Google Cloud. Feel free to ask questions about google cloud in #discussion channel in Slack (but do not post your passwords or access tokens there or anywhere else publically, including your github).</p>
+
+<blockquote>
+  <p>If you are unfamiliar with SSH, look up this <a href="https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server">tutorial</a> and if you are using Windows, <a href="https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/">this one (Windows 10 native SSH)</a> or <a href="https://mediatemple.net/community/products/dv/204404604/using-ssh-in-putty-(windows)">this one (PUTTY)</a>.</p>
+</blockquote>
+
+<h2 id="how-to-keep-running-commands-after-ssh-session-disconnection">
+<a class="anchor" href="#how-to-keep-running-commands-after-ssh-session-disconnection" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Keep Running Commands After SSH Session Disconnection</h2>
+
+<p>It takes hours to run training on a GPU. However, if you would just run <code class="language-plaintext highlighter-rouge">python cli/train.py &lt;blahblah&gt;</code> in your SSH session and then disconnect, your script will automatically be shutdown by the system. To avoid this, you can use <a href="https://leimao.github.io/blog/Tmux-Tutorial/">tmux sessions</a>, you can also use <code class="language-plaintext highlighter-rouge">screen</code>, if you are familiar with it, but <strong>do not</strong> use <code class="language-plaintext highlighter-rouge">nohup</code> as it is not flexible enough for our purposes.</p>
+
+<h3 id="how-to-sync-your-laptop-code-and-server-code">
+<a class="anchor" href="#how-to-sync-your-laptop-code-and-server-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to sync your laptop code and server code</h3>
+
+<p>Use Github and Git for that. These are essential professional instruments and you will need to learn them at some point anyway. Create a <strong>private</strong> repository for your homework (your grade will be lowered, if the repository is public). And use git commands to synchronize your code. You will mostly only need these ones: <code class="language-plaintext highlighter-rouge">git commit</code>, <code class="language-plaintext highlighter-rouge">git push</code>, <code class="language-plaintext highlighter-rouge">git clone</code>, and <code class="language-plaintext highlighter-rouge">git pull</code> .</p>
+
+<blockquote>
+  <p>If you are unfamiliar with Git and Github: <a href="https://docs.github.com/en/get-started/using-git/about-git">read this tutorial</a>.</p>
+</blockquote>
+
+<blockquote>
+  <p>Git and GitHub are extremely popular. If you see an error — google it! You will find the answer way quicker than contacting a TA. But feel free to ask you questions in Slack too, especially if you do not understand the answer from Google.</p>
+</blockquote>
+
+<p>If you have trouble with understanding git, please contact a TA. You can use <code class="language-plaintext highlighter-rouge">scp</code> command to sync your code but <strong>it can cause losing your changes</strong> if you are not careful. We advise <strong>not</strong> to use <code class="language-plaintext highlighter-rouge">scp</code> to sync your code, but only to use it for large file upload/download.</p>
+
+<h2 id="setting-up-the-environment">
+<a class="anchor" href="#setting-up-the-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setting up the environment</h2>
+
+<p>We strongly recommend using a code editor like VSCode or PyCharm. Jupyter Lab or Spyder are jupyter-notebook-first tools and are not well-suited to work with regular python modules. Here is a good tutorial on how to <a href="https://www.youtube.com/watch?v=Z3i04RoI9Fk">setup VSCode for Python</a>. Both of them also support jupyter notebooks, you just need to specify which jupyter kernel you want to use (most probably its <code class="language-plaintext highlighter-rouge">nlp_class</code>). For VSCode you may want to additionally install a <a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">markdown extention</a> to render files like this README.md.</p>
+
+<p>You will be developing the package that is located inside <code class="language-plaintext highlighter-rouge">transformer_mt</code>. In order to be able to import this package from the notebooks, training script, and anywhere else, you need to</p>
+
+<blockquote>
+  <p>Note that even though this homework is similar to language modeling homework, the package name is different. It is <code class="language-plaintext highlighter-rouge">transformer_mt</code> instead of <code class="language-plaintext highlighter-rouge">transformer_lm</code>. If you see any references to <code class="language-plaintext highlighter-rouge">transformer_lm</code> contact a TA so that they would fix it.</p>
+</blockquote>
+
+<ol>
+  <li>If you are working in a new environment (for example, a server), you need to create a new conda environment (<code class="language-plaintext highlighter-rouge">conda create -n nlp_class python=3.7</code>).</li>
+  <li>Activate your python environment (e.g., <code class="language-plaintext highlighter-rouge">conda activate nlp_class</code>).</li>
+  <li>Go to the homework directory that contains <code class="language-plaintext highlighter-rouge">setup.py</code> file (the same directory this <code class="language-plaintext highlighter-rouge">README.md</code> is in).</li>
+  <li>Install the package using the command <code class="language-plaintext highlighter-rouge">pip install --editable .</code>. It should download all of the dependencies and install your module.</li>
+  <li>If you are on a GPU machine, you need to install a GPU version of PyTorch. To do that, first, check what CUDA version your server has with <code class="language-plaintext highlighter-rouge">nvidia-smi</code>.
+    <ol>
+      <li>If your CUDA version is below 10.2, don’t use this server</li>
+      <li>If your CUDA version is below 11, run <code class="language-plaintext highlighter-rouge">pip install torch</code>
+</li>
+      <li>If your CUDA version is 11.X run, <code class="language-plaintext highlighter-rouge">pip install torch==1.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html</code>
+</li>
+      <li>Check that pytorch-GPU works via <code class="language-plaintext highlighter-rouge">python -c "import torch; print(torch.cuda.is_available())"</code>. If it returns False, reinstall pytorch via one of the above commands (usually this helps), if it doesn’t help, describe your problem in <code class="language-plaintext highlighter-rouge">#discussion</code>.</li>
+      <li>If you are using 30XX, A100 or A6000 GPU, you have to use CUDA 11.3 and above.</li>
+    </ol>
+  </li>
+</ol>
+
+<p><strong>Explaining pip install -e . command</strong>:
+<code class="language-plaintext highlighter-rouge">pip</code> is the python package manager. <code class="language-plaintext highlighter-rouge">install</code> is the pip command to install the module. <code class="language-plaintext highlighter-rouge">-e</code> is the argument that says to install the module in <em>editable</em> mode which allows you to edit the package and import from it right away without the need to reinstall it. The final argument is <code class="language-plaintext highlighter-rouge">.</code> which says “the package is located in the current directory”.</p>
+
+<h1 id="submitting-this-homework">
+<a class="anchor" href="#submitting-this-homework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Submitting this homework</h1>
+
+<blockquote>
+  <p>NOTE: Do not add <code class="language-plaintext highlighter-rouge">model.pt</code> and other large files to your git repository.</p>
+</blockquote>
+
+<ol>
+  <li>Restart your <code class="language-plaintext highlighter-rouge">.ipynb</code> notebooks and execute them top-to-bottom via the “Restart and run all” button.
+Not executed notebooks or the notebooks with the cells not executed in order will receive 0 points.</li>
+  <li>
+<strong>If you are using GitHub</strong>, add <code class="language-plaintext highlighter-rouge">github.com/guitaricet</code> and <code class="language-plaintext highlighter-rouge">github.com/NamrataRShivagunde</code> to your <a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository">repository collaborators</a>, so we could access your code. Push your last changes (including the executed notebooks) and submit the link to your GitHub repository to the Blackboard.</li>
+  <li>
+<strong>If you are not using GitHub</strong>, delete <code class="language-plaintext highlighter-rouge">output_dir</code> (or move its contents somewhere else if you want to reuse them later) and <code class="language-plaintext highlighter-rouge">wandb</code> directories. Zip this directory and submit the archive to the Blackboard.</li>
+  <li>Submit a link to your best wandb run to the Blackboard too. You will be evaluated based on the BLEU score of your model. Make sure your wandb project is public.</li>
+</ol>
+
+  </div><a class="u-url" href="/nlp_class_2022/markdown/2022/03/17/Homework-5-instructions.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/nlp_class_2022/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/nlp_class_2022/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>UMass Lowell COMP 4420/5420</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/text-machine-lab" target="_blank" title="text-machine-lab"><svg class="svg-icon grey"><use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/arumshisky" target="_blank" title="arumshisky"><svg class="svg-icon grey"><use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
