@@ -16,7 +16,7 @@ permalink: /schedule/
 | Mar 1      | Sequence to sequence networks | [lecture 6](https://docs.google.com/presentation/d/1BQNPcAfUbL0AlHueXjgGUeuLTvdlJyat6XDM867BuTw/edit?usp=sharing)     |               |  [quiz 5](https://forms.gle/mEkJR6vu8YeUbsUz8) | 
 | Mar 8      | No Class, Spring break    |               |                 |               | 
 | Mar 15     | Transfer Learning in NLP  | [lecture 7](https://docs.google.com/presentation/d/1SpzwnQoUrqzfvDJfwCJWT_KAh7kLU0uT9c-sbPZTXWw/edit?usp=sharing)       |               |                          | 
-| Mar 22     | Guest Lecture, Alexey Romanov, Neural Ranking |               | Summarization with T5   |   [quiz 6](https://forms.gle/XfKJrfc9u9cPNzVY9)  | 
+| Mar 22     | Guest Lecture, Alexey Romanov Neural Ranking |               | Summarization with T5   |   [quiz 6](https://forms.gle/XfKJrfc9u9cPNzVY9)  | 
 | Mar 29     | Scale in NLP              |               | Project proposal        |               | 
 | Apr 5      | Topics                    |               | Supervised project work |               | 
 | Apr 12     | Guest Lecture / Topics    |               | Supervised project work |               | 
