@@ -69,7 +69,7 @@ python cli/train.py \
     --eval_every 5000
 ```
 
-## Try out your model
+## 4. Try out your model
 
 After training, use `notebooks/03_interact.ipynb` to translate texts using your model. This part is evaluated and (we hope) might be rewarding, as the final system should produce reasonable translations, please do not skip it.
 
