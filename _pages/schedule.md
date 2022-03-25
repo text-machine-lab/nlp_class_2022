@@ -20,7 +20,7 @@ permalink: /schedule/
 | Mar 29     | Fancy pre-training              |               | Getting familiar with 🤗 Transformers        |               | 
 | Apr 5      | Effect of scale in NLP          |               | Research paper presentations |               | 
 | Apr 12     | Guest Lecture, [Mikhail Galkin](https://migalkin.github.io), Graph neural networks   |               | Supervised project work |               | 
-| Apr 19     | Guest Lecture / Topics    |               | Supervised project work |               | 
+| Apr 19     | Guest Lecture, [Albert Webson](https://representation.ai), Multitask Prompted Training |               | Supervised project work |               | 
 | Apr 26     | Guest Lecture / Topics    |               | Supervised project work |               | 
 | May 3      | Presentations             |               |               |               |
 
