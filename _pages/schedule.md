@@ -17,7 +17,7 @@ permalink: /schedule/
 | Mar 8      | No Class, Spring break    |               |                 |               | 
 | Mar 15     | Transfer Learning in NLP  | [lecture 7](https://docs.google.com/presentation/d/1SpzwnQoUrqzfvDJfwCJWT_KAh7kLU0uT9c-sbPZTXWw/edit?usp=sharing)       | [Machine Translation](https://drive.google.com/file/d/193IkpPHbAyJtxm9UasCxZ8iB7ZiZezc-/view?usp=sharing) |                          | 
 | Mar 22     | Guest Lecture, [Alexey Romanov](https://scholar.google.com/citations?user=huBJSMwAAAAJ), Neural Ranking |               |    |   [quiz 6](https://forms.gle/XfKJrfc9u9cPNzVY9)  | 
-| Mar 29     | Fancy pre-training              |               | [BERT for classification](https://drive.google.com/file/d/19gGwNMOuh3RPkCt_EupnybuOF-3HOMaN/view?usp=sharing)        |               | 
+| Mar 29     | Fancy pre-training              |               | [BERT for classification](https://drive.google.com/file/d/19gGwNMOuh3RPkCt_EupnybuOF-3HOMaN/view?usp=sharing), [(optional, extra points) BERT for QA](https://drive.google.com/file/d/1DDT0qfUzKzWU7ChraaWoChhnXCRjUxq9/view?usp=sharing)        |               | 
 | Apr 5      | Effect of scale in NLP          |               | Research paper presentations |               | 
 | Apr 12     | Guest Lecture, [Mikhail Galkin](https://migalkin.github.io), Graph neural networks   |               | Supervised project work |               | 
 | Apr 19     | Guest Lecture, [Albert Webson](https://representation.ai), Multitask Prompted Training |               | Supervised project work |               | 
