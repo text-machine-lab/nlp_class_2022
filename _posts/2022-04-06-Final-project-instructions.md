@@ -6,8 +6,6 @@ categories: [markdown]
 title: Final Project
 ---
 
-# Final Project
-
 For your final project, you will need to extend your HW5 to produce a high-quality sequence-to-sequence system.
 This could be machine translation, multilingual machine translation, summarization, dialogue generation, code generation, or another seq-to-seq task of your choice.
 We provide you with a list of recommended datasets at the end of this document.
@@ -89,7 +87,11 @@ you can train for less than one epoch, given that the final model perfomance is 
 
 ## Translation:
 * https://huggingface.co/datasets/code_x_glue_tt_text_to_text
-### Multilingual translation (hard task, consult with a TA): https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt
+
+### Multilingual translation
+**hard task, consult with a TA**
+
+* https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt
 * Feel free to find other translation datasets, but consult with a TA about them
 
 ## Summarization:
@@ -101,10 +103,12 @@ you can train for less than one epoch, given that the final model perfomance is 
 * https://huggingface.co/datasets/gem
 * https://huggingface.co/datasets/reddit
 
-### Long-document summarization (hard task):
-https://huggingface.co/datasets/ccdv/arxiv-summarization
-https://huggingface.co/datasets/ccdv/pubmed-summarization
-https://huggingface.co/datasets/ccdv/govreport-summarization
+### Long-document summarization
+**hard task, consult with a TA**
+
+* https://huggingface.co/datasets/ccdv/arxiv-summarization
+* https://huggingface.co/datasets/ccdv/pubmed-summarization
+* https://huggingface.co/datasets/ccdv/govreport-summarization
 
 ## Dialogue generation:
 * https://huggingface.co/datasets/conv_ai_2
@@ -116,5 +120,6 @@ https://huggingface.co/datasets/ccdv/govreport-summarization
 * https://huggingface.co/datasets/spider
 
 ## Math problems
-**very hard task, consult a TA before deciding to work on it**
+**very hard task, consult with a TA**
+
 * https://huggingface.co/datasets/competition_math
