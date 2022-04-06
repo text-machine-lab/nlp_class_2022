@@ -10,9 +10,7 @@ For your final project, you will need to extend your HW5 to produce a high-quali
 This could be machine translation, multilingual machine translation, summarization, dialogue generation, code generation, or another seq-to-seq task of your choice.
 We provide you with a list of recommended datasets at the end of this document.
 
-We strongly recommend to work on the final project in pairs.
-Both project collaborators need to make equal contributions to the codebase.
-You need to declare your team (or that you work on the project indivitually) in your design document on Apr 12.
+We strongly advise that you work in groups of two. Note that we expect both of you to make equal contributions to the codebase. If you would like to work on a project individually, please talk to us. You will need to let us know who is on your team in your design document due Apr 12.
 
 > Optionally, you can propose a different final project.
 > In this case, you need to discuss it with a TA before Apr 12.
@@ -52,7 +50,7 @@ You should do this **in person**, zoom submissions are possible only given a suf
   * you don’t have to have a properly trained network at this point. Just make sure you can complete 10 training iterations and an evaluation. Showing that the model can perfectly fit 100 training examples (training accuracy > 99% without regularization) would be a great plus and can give you extra points for the final project.
 1. **Apr 26:** Demonstrate that your model learns the task.
   * Your evaluation metrics should show significantly better performance than a random untrained model. And your model should outperform a model without a pre-trained component. At this point, you should have a trained checkpoint of the model that might perform suboptimally, but reasonably well. After that, you can focus on your presentation, writeup and demo code.
-1. **May 3:** Final presentations with a live demo of your model. A half-page project report that describes what you have learned and the contributions of each person who worked on the project.
+1. **May 5:** Final writeup is due.  A conference-style writeup of 4-6 pages that describes your problem, your model, your experiments and results, and what you have learned.  You should also have an appendix that describes the specific contributions of each person in your group.  
 1. **After May 3:** Writeup submission. A 4-page conference paper-style writeup with introduction, related work, methods, and results sections. More details on that soon.
 
 ## You will be evaluated on:
@@ -73,7 +71,32 @@ You should do this **in person**, zoom submissions are possible only given a suf
   * Is it possible to run your code on a machine without a GPU?
   * Does your code follow PEP-8? Feel free to use auto-formatting tools such as Black.
 * The quality of the writeup
-  * Does your writeup clearly presents the problem you were trying to solve (e.g., , relevant related work you drew on
+  * Clarity of writing
+  * Do you clearly define and motivate the problem you are solving?
+  * Do you appropriately reference the relevant previous work, e.g. the relevant work for the extra features you implemented?
+  * Are your methods, experimental setup, and results clearly described?
+  * Do you have any insightful interpretations of your results and suggestions for future improvements?
+
+# Writeup
+
+You should submit a conference-style writeup of 4-6 pages. The writeup should be written in the style of a conference paper and should include:
+1. An abstract, describing briefly what you have done and results you obtained [1 paragraph]
+1. An introduction, a statement of the problem you are trying to address and a brief description of your solution.
+1. Related work section (can be folded into the introduction), which should include brief references to related work mentioning relevant results and methods that your work draws on.
+  1. Description of your methodology, including
+  1. Machine learning methods, including an explanation of variables and formulas
+  1. A figure that illustrates your method
+  1. Data sets used 
+  1. Experimental setup and evaluation methods.
+1. Description of your results, including tables, comparisons with baselines, and figures if applicable.
+1. A brief discussion of results, conclusions of your study, future directions if any. 
+
+Approximate length: intro/related work (1.5 pages), methods/experimental setup (1.5-2 pages), results/conclusions (1-2 pages).
+
+**IMPORTANT:** Please use the ACL conference style templates provided here: https://github.com/acl-org/acl-style-files
+
+> this writeup should be in your project’s GitHub repository
+
 
 # Recommended datasets
 Before deciding to work on a dataset (milestone 1) make sure it’s not too large and fits on your disk.
