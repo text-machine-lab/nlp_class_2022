@@ -98,24 +98,20 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#milestones">Milestones</a></li>
-<li class="toc-entry toc-h1"><a href="#you-will-be-evaluated-on">You will be evaluated on:</a></li>
-<li class="toc-entry toc-h1"><a href="#recommended-datasets">Recommended datasets</a>
+<li class="toc-entry toc-h3"><a href="#tips">Tips:</a></li>
+<li class="toc-entry toc-h1"><a href="#milestones">Milestones</a>
 <ul>
-<li class="toc-entry toc-h2"><a href="#translation">Translation:</a>
+<li class="toc-entry toc-h2"><a href="#you-will-be-evaluated-on">You will be evaluated on:</a></li>
+<li class="toc-entry toc-h2"><a href="#recommended-datasets">Recommended datasets</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#multilingual-translation">Multilingual translation</a></li>
+<li class="toc-entry toc-h3"><a href="#translation">Translation:</a></li>
+<li class="toc-entry toc-h3"><a href="#summarization">Summarization:</a></li>
+<li class="toc-entry toc-h3"><a href="#dialogue-generation">Dialogue generation:</a></li>
+<li class="toc-entry toc-h3"><a href="#code-generation-or-the-opposite-task-of-code-explanation">Code generation (or the opposite task of code explanation):</a></li>
+<li class="toc-entry toc-h3"><a href="#text-to-sql-or-sql-to-text">Text to SQL (or SQL to text):</a></li>
+<li class="toc-entry toc-h3"><a href="#math-problems">Math problems</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#summarization">Summarization:</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#long-document-summarization">Long-document summarization</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2"><a href="#dialogue-generation">Dialogue generation:</a></li>
-<li class="toc-entry toc-h2"><a href="#code-generation-or-the-opposite-task-of-code-explanation">Code generation (or the opposite task of code explanation):</a></li>
-<li class="toc-entry toc-h2"><a href="#text-to-sql-or-sql-to-text">Text to SQL (or SQL to text):</a></li>
-<li class="toc-entry toc-h2"><a href="#math-problems">Math problems</a></li>
 </ul>
 </li>
 </ul><p>For your final project, you will need to extend your HW5 to produce a high-quality sequence-to-sequence system.
@@ -141,7 +137,8 @@ You need to provide a task description, dataset, metrics, and what codebase you 
   <li>Any extra features/ideas implemented (such as back-translation, new decoding methods, data augmentation, ensembling models, using model predictions in a non-standard way, …, ask TA for more ideas) are a big plus and would count for extra points.</li>
 </ol>
 
-<p>Tips:</p>
+<h3 id="tips">
+<a class="anchor" href="#tips" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tips:</h3>
 <ul>
   <li>Pay attention to your cloud credits. Not planning your compute utilization in advance or not tracking it can leave you without access to a cloud GPU (and DAN417 machines have a lot of issues). For example:
     <ul>
@@ -155,9 +152,9 @@ You need to provide a task description, dataset, metrics, and what codebase you 
 <h1 id="milestones">
 <a class="anchor" href="#milestones" aria-hidden="true"><span class="octicon octicon-link"></span></a>Milestones</h1>
 
-<p>Every class starting next week will be splitted into two parts: lecture and final project work.
+<p>Every class starting next week will be split into two parts: lecture and final project work.
 Each demonstration / document submission should be done on Tuesday during the final project work section of the class.
-You should do this <strong>in person</strong>, zoom submissions are possible only given a sufficient justificatoin and should be appproved a day before the class.</p>
+You should do this <strong>in person</strong>, zoom submissions are possible only given a sufficient justification and should be approved a day before the class.</p>
 
 <ol>
   <li>
@@ -194,20 +191,19 @@ You should do this <strong>in person</strong>, zoom submissions are possible onl
 <strong>After May 3:</strong> Writeup submission. A 4-page conference paper-style writeup with introduction, related work, methods, and results sections. More details on that soon.</li>
 </ol>
 
-<h1 id="you-will-be-evaluated-on">
-<a class="anchor" href="#you-will-be-evaluated-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>You will be evaluated on:</h1>
+<h2 id="you-will-be-evaluated-on">
+<a class="anchor" href="#you-will-be-evaluated-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>You will be evaluated on:</h2>
 <ul>
   <li>The quality of the presentation
     <ul>
-      <li>the slides are simple, clear, and convey the information you want, they do not contain a lot of visual clutter</li>
-      <li>the presentation is well-researched, presenters know what</li>
-      <li>a good balance between technical aspects and</li>
+      <li>The slides are simple, clear, and convey the information you want, they do not contain a lot of visual clutter</li>
+      <li>The presentation is well-rehearsed and intersting to watch</li>
     </ul>
   </li>
   <li>The quality of the demo:
     <ul>
-      <li>a nice Streamlit or Gradio demo is expected.</li>
-      <li>a Jupyter or command-line demo is a big minus, but better than nothing</li>
+      <li>A nice Streamlit or Gradio demo is expected</li>
+      <li>A Jupyter or command-line demo is a big minus, but better than nothing</li>
     </ul>
   </li>
   <li>The quality of the model:
@@ -233,8 +229,8 @@ You should do this <strong>in person</strong>, zoom submissions are possible onl
   </li>
 </ul>
 
-<h1 id="recommended-datasets">
-<a class="anchor" href="#recommended-datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended datasets</h1>
+<h2 id="recommended-datasets">
+<a class="anchor" href="#recommended-datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended datasets</h2>
 <p>Before deciding to work on a dataset (milestone 1) make sure it’s not too large and fits on your disk.
 You additionally need to analyze if the texts are not too large (» 512 tokens).
 If they are too big, you need to figure out how to trim it or not to work on the dataset at all.
@@ -243,23 +239,22 @@ Note, that if the dataset is so large that one epoch takes more than some reason
 (wastes your cloud credits) and you are sure this is not a bug (e.g. GPU utilization is very close to 80-100%),
 you can train for less than one epoch, given that the final model perfomance is reasonable.</p>
 
-<h2 id="translation">
-<a class="anchor" href="#translation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Translation:</h2>
+<h3 id="translation">
+<a class="anchor" href="#translation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Translation:</h3>
 <ul>
   <li>https://huggingface.co/datasets/code_x_glue_tt_text_to_text</li>
 </ul>
 
-<h3 id="multilingual-translation">
-<a class="anchor" href="#multilingual-translation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multilingual translation</h3>
-<p><strong>hard task, consult with a TA</strong></p>
+<p><strong>Multilingual translation</strong>
+<strong>hard task, consult with a TA</strong></p>
 
 <ul>
   <li>https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt</li>
   <li>Feel free to find other translation datasets, but consult with a TA about them</li>
 </ul>
 
-<h2 id="summarization">
-<a class="anchor" href="#summarization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summarization:</h2>
+<h3 id="summarization">
+<a class="anchor" href="#summarization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summarization:</h3>
 <ul>
   <li>https://huggingface.co/datasets/cnn_dailymail</li>
   <li>https://huggingface.co/datasets/gigaword</li>
@@ -270,9 +265,8 @@ you can train for less than one epoch, given that the final model perfomance is 
   <li>https://huggingface.co/datasets/reddit</li>
 </ul>
 
-<h3 id="long-document-summarization">
-<a class="anchor" href="#long-document-summarization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Long-document summarization</h3>
-<p><strong>hard task, consult with a TA</strong></p>
+<p><strong>Long-document summarization</strong>
+<strong>hard task, consult with a TA</strong></p>
 
 <ul>
   <li>https://huggingface.co/datasets/ccdv/arxiv-summarization</li>
@@ -280,26 +274,26 @@ you can train for less than one epoch, given that the final model perfomance is 
   <li>https://huggingface.co/datasets/ccdv/govreport-summarization</li>
 </ul>
 
-<h2 id="dialogue-generation">
-<a class="anchor" href="#dialogue-generation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dialogue generation:</h2>
+<h3 id="dialogue-generation">
+<a class="anchor" href="#dialogue-generation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dialogue generation:</h3>
 <ul>
   <li>https://huggingface.co/datasets/conv_ai_2</li>
 </ul>
 
-<h2 id="code-generation-or-the-opposite-task-of-code-explanation">
-<a class="anchor" href="#code-generation-or-the-opposite-task-of-code-explanation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code generation (or the opposite task of code explanation):</h2>
+<h3 id="code-generation-or-the-opposite-task-of-code-explanation">
+<a class="anchor" href="#code-generation-or-the-opposite-task-of-code-explanation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code generation (or the opposite task of code explanation):</h3>
 <ul>
   <li>https://huggingface.co/datasets/code_x_glue_tc_text_to_code</li>
 </ul>
 
-<h2 id="text-to-sql-or-sql-to-text">
-<a class="anchor" href="#text-to-sql-or-sql-to-text" aria-hidden="true"><span class="octicon octicon-link"></span></a>Text to SQL (or SQL to text):</h2>
+<h3 id="text-to-sql-or-sql-to-text">
+<a class="anchor" href="#text-to-sql-or-sql-to-text" aria-hidden="true"><span class="octicon octicon-link"></span></a>Text to SQL (or SQL to text):</h3>
 <ul>
   <li>https://huggingface.co/datasets/spider</li>
 </ul>
 
-<h2 id="math-problems">
-<a class="anchor" href="#math-problems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Math problems</h2>
+<h3 id="math-problems">
+<a class="anchor" href="#math-problems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Math problems</h3>
 <p><strong>very hard task, consult with a TA</strong></p>
 
 <ul>
