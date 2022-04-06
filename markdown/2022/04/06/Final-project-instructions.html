@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Final Project | Natural Language Processing</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Final Project" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="NLP class final project description" />
+<meta property="og:description" content="NLP class final project description" />
+<link rel="canonical" href="https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/04/06/Final-project-instructions.html" />
+<meta property="og:url" content="https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/04/06/Final-project-instructions.html" />
+<meta property="og:site_name" content="Natural Language Processing" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-04-06T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Final Project" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-06T00:00:00-05:00","datePublished":"2022-04-06T00:00:00-05:00","description":"NLP class final project description","headline":"Final Project","mainEntityOfPage":{"@type":"WebPage","@id":"https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/04/06/Final-project-instructions.html"},"url":"https://text-machine-lab.github.io/nlp_class_2022/markdown/2022/04/06/Final-project-instructions.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/nlp_class_2022/assets/css/style.css">
+  <!--<link type="application/atom+xml" rel="alternate" href="https://text-machine-lab.github.io/nlp_class_2022/feed.xml" title="Natural Language Processing" />-->
+  <!----><link rel="shortcut icon" type="image/x-icon" href="/nlp_class_2022/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/nlp_class_2022/">Natural Language Processing</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/nlp_class_2022/schedule/">Course Schedule</a><a class="page-link" href="/nlp_class_2022/search/">Search</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Final Project</h1><p class="page-description">NLP class final project description</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-04-06T00:00:00-05:00" itemprop="datePublished">
+        Apr 6, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/nlp_class_2022/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#final-project">Final Project</a></li>
+<li class="toc-entry toc-h1"><a href="#milestones">Milestones</a></li>
+<li class="toc-entry toc-h1"><a href="#you-will-be-evaluated-on">You will be evaluated on:</a></li>
+<li class="toc-entry toc-h1"><a href="#recommended-datasets">Recommended datasets</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#translation">Translation:</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#multilingual-translation-hard-task-consult-with-a-ta-httpshuggingfacecodatasetshelsinki-nlptatoeba_mt">Multilingual translation (hard task, consult with a TA): https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#summarization">Summarization:</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#long-document-summarization-hard-task">Long-document summarization (hard task):</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#dialogue-generation">Dialogue generation:</a></li>
+<li class="toc-entry toc-h2"><a href="#code-generation-or-the-opposite-task-of-code-explanation">Code generation (or the opposite task of code explanation):</a></li>
+<li class="toc-entry toc-h2"><a href="#text-to-sql-or-sql-to-text">Text to SQL (or SQL to text):</a></li>
+<li class="toc-entry toc-h2"><a href="#math-problems">Math problems</a></li>
+</ul>
+</li>
+</ul><h1 id="final-project">
+<a class="anchor" href="#final-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final Project</h1>
+
+<p>For your final project, you will need to extend your HW5 to produce a high-quality sequence-to-sequence system.
+This could be machine translation, multilingual machine translation, summarization, dialogue generation, code generation, or another seq-to-seq task of your choice.
+We provide you with a list of recommended datasets at the end of this document.</p>
+
+<p>We strongly recommend to work on the final project in pairs.
+Both project collaborators need to make equal contributions to the codebase.
+You need to declare your team (or that you work on the project indivitually) in your design document on Apr 12.</p>
+
+<blockquote>
+  <p>Optionally, you can propose a different final project.
+In this case, you need to discuss it with a TA before Apr 12.
+You need to provide a task description, dataset, metrics, and what codebase you will use for it.</p>
+</blockquote>
+
+<p>Your project should contain the following elements:</p>
+
+<ol>
+  <li>Unlike HW5, your model should contain a pre-trained component, which could be a pre-trained encoder or a pre-trained encoder-decoder model.</li>
+  <li>You will need to compare the performance of a seq-to-seq model trained from scratch with your model that includes a pre-trained component. You don’t need to train the model until convergence and can use an early checkpoint (200-300 iterations) to perform this comparison.</li>
+  <li>You should have a live demo of your model, i.e., a live interface where we would be able to enter input and view the output. You can use streamlit or gradio to create the demo.</li>
+  <li>Any extra features/ideas implemented (such as back-translation, new decoding methods, data augmentation, ensembling models, using model predictions in a non-standard way, …, ask TA for more ideas) are a big plus and would count for extra points.</li>
+</ol>
+
+<p>Tips:</p>
+<ul>
+  <li>Pay attention to your cloud credits. Not planning your compute utilization in advance or not tracking it can leave you without access to a cloud GPU (and DAN417 machines have a lot of issues). For example:
+    <ul>
+      <li>Do not spend 12 GPU hours verifying your HW5 works. Try to squeeze it into one or two hours.</li>
+      <li>If you are low on credits, plan accordingly and try to minimize the time you use the cloud. Test your code on your laptop before deploying it to the cloud.</li>
+    </ul>
+  </li>
+  <li>Ask questions if you are stuck. We expect you to make progress every week. If you are struggling with the same bug or facing the wall for a day, please seek help. Ask questions in #discussion or DM a TA. Arranging one-on-one meetings is also possible, but we have a limited capacity for that.</li>
+</ul>
+
+<h1 id="milestones">
+<a class="anchor" href="#milestones" aria-hidden="true"><span class="octicon octicon-link"></span></a>Milestones</h1>
+
+<p>Every class starting next week will be splitted into two parts: lecture and final project work.
+Each demonstration / document submission should be done on Tuesday during the final project work section of the class.
+You should do this <strong>in person</strong>, zoom submissions are possible only given a sufficient justificatoin and should be appproved a day before the class.</p>
+
+<ol>
+  <li>
+<strong>Apr 12:</strong> Design document. A half-page summary of what you are planning to do. Google docs format with comments enabled. This document should contain
+    <ul>
+      <li>Who is working on the project (one or two people).</li>
+      <li>A link to a GitHub repository of the project.</li>
+      <li>Your dataset (or datasets) description i.e., task, language, size, source of the dataset.</li>
+      <li>What pre-trained model checkpoint you are planning to use, its architecture, its pre-training objective, language(s) it was pre-trained on.</li>
+      <li>How you are going to use this model for your task: do you need to add any extra layers / a new decoder.</li>
+      <li>The metric for model evaluation. It should be reasonable and well-suited for the task. For example, accuracy is not a good metric for machine translation. BLEU is better. At the same time, BLEU is not a good metric for summarization or code generation.</li>
+      <li>How you are planning to sample from your model at test time: greedy search, beam search, top-k sampling, etc.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Apr 12 (same day as design document):</strong> demonstrate that your HW5 works. I.e., you are able to train your model and achieve BLEU &gt; 10 (an hour of training should be enough).</li>
+  <li>
+<strong>Apr 19:</strong> Demonstrate that your training script and model (with integrated pre-trained component) works. This means that
+    <ul>
+      <li>the data is pre-processed and batched correctly,</li>
+      <li>the training loop does not fail because of a bug and evaluation produces the metrics.</li>
+      <li>you don’t have to have a properly trained network at this point. Just make sure you can complete 10 training iterations and an evaluation. Showing that the model can perfectly fit 100 training examples (training accuracy &gt; 99% without regularization) would be a great plus and can give you extra points for the final project.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Apr 26:</strong> Demonstrate that your model learns the task.
+    <ul>
+      <li>Your evaluation metrics should show significantly better performance than a random untrained model. And your model should outperform a model without a pre-trained component. At this point, you should have a trained checkpoint of the model that might perform suboptimally, but reasonably well. After that, you can focus on your presentation, writeup and demo code.</li>
+    </ul>
+  </li>
+  <li>
+<strong>May 3:</strong> Final presentations with a live demo of your model. A half-page project report that describes what you have learned and the contributions of each person who worked on the project.</li>
+  <li>
+<strong>After May 3:</strong> Writeup submission. A 4-page conference paper-style writeup with introduction, related work, methods, and results sections. More details on that soon.</li>
+</ol>
+
+<h1 id="you-will-be-evaluated-on">
+<a class="anchor" href="#you-will-be-evaluated-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>You will be evaluated on:</h1>
+<ul>
+  <li>The quality of the presentation
+    <ul>
+      <li>the slides are simple, clear, and convey the information you want, they do not contain a lot of visual clutter</li>
+      <li>the presentation is well-researched, presenters know what</li>
+      <li>a good balance between technical aspects and</li>
+    </ul>
+  </li>
+  <li>The quality of the demo:
+    <ul>
+      <li>a nice Streamlit or Gradio demo is expected.</li>
+      <li>a Jupyter or command-line demo is a big minus, but better than nothing</li>
+    </ul>
+  </li>
+  <li>The quality of the model:
+    <ul>
+      <li>Is it able to solve the task at all?</li>
+      <li>Does it perform better than the model without a pre-trained component?</li>
+      <li>How does it compare to the other models trained on this dataset?</li>
+    </ul>
+  </li>
+  <li>The quality of the codebase:
+    <ul>
+      <li>Does it contain README.md which explains a) what this project is about b) how to train the network and how to start the demo.</li>
+      <li>Contains up-to-date requirements.txt with all dependencies of your project. Every single thing you had to pip-install should be there.</li>
+      <li>Do README.md instructions actually work and we can run your code without errors.</li>
+      <li>Is it possible to run your code on a machine without a GPU?</li>
+      <li>Does your code follow PEP-8? Feel free to use auto-formatting tools such as Black.</li>
+    </ul>
+  </li>
+  <li>The quality of the writeup
+    <ul>
+      <li>Does your writeup clearly presents the problem you were trying to solve (e.g., , relevant related work you drew on</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="recommended-datasets">
+<a class="anchor" href="#recommended-datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended datasets</h1>
+<p>Before deciding to work on a dataset (milestone 1) make sure it’s not too large and fits on your disk.
+You additionally need to analyze if the texts are not too large (» 512 tokens).
+If they are too big, you need to figure out how to trim it or not to work on the dataset at all.
+If you really want to work with large texts, ask TA for tips (before milestone 1).
+Note, that if the dataset is so large that one epoch takes more than some reasonable time
+(wastes your cloud credits) and you are sure this is not a bug (e.g. GPU utilization is very close to 80-100%),
+you can train for less than one epoch, given that the final model perfomance is reasonable.</p>
+
+<h2 id="translation">
+<a class="anchor" href="#translation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Translation:</h2>
+<ul>
+  <li>https://huggingface.co/datasets/code_x_glue_tt_text_to_text
+    <h3 id="multilingual-translation-hard-task-consult-with-a-ta-httpshuggingfacecodatasetshelsinki-nlptatoeba_mt">
+<a class="anchor" href="#multilingual-translation-hard-task-consult-with-a-ta-httpshuggingfacecodatasetshelsinki-nlptatoeba_mt" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multilingual translation (hard task, consult with a TA): https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt</h3>
+  </li>
+  <li>Feel free to find other translation datasets, but consult with a TA about them</li>
+</ul>
+
+<h2 id="summarization">
+<a class="anchor" href="#summarization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summarization:</h2>
+<ul>
+  <li>https://huggingface.co/datasets/cnn_dailymail</li>
+  <li>https://huggingface.co/datasets/gigaword</li>
+  <li>https://huggingface.co/datasets/orange_sum</li>
+  <li>https://huggingface.co/datasets/ai4bharat/IndicSentenceSummarization</li>
+  <li>https://huggingface.co/datasets/xsum</li>
+  <li>https://huggingface.co/datasets/gem</li>
+  <li>https://huggingface.co/datasets/reddit</li>
+</ul>
+
+<h3 id="long-document-summarization-hard-task">
+<a class="anchor" href="#long-document-summarization-hard-task" aria-hidden="true"><span class="octicon octicon-link"></span></a>Long-document summarization (hard task):</h3>
+<p>https://huggingface.co/datasets/ccdv/arxiv-summarization
+https://huggingface.co/datasets/ccdv/pubmed-summarization
+https://huggingface.co/datasets/ccdv/govreport-summarization</p>
+
+<h2 id="dialogue-generation">
+<a class="anchor" href="#dialogue-generation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dialogue generation:</h2>
+<ul>
+  <li>https://huggingface.co/datasets/conv_ai_2</li>
+</ul>
+
+<h2 id="code-generation-or-the-opposite-task-of-code-explanation">
+<a class="anchor" href="#code-generation-or-the-opposite-task-of-code-explanation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code generation (or the opposite task of code explanation):</h2>
+<ul>
+  <li>https://huggingface.co/datasets/code_x_glue_tc_text_to_code</li>
+</ul>
+
+<h2 id="text-to-sql-or-sql-to-text">
+<a class="anchor" href="#text-to-sql-or-sql-to-text" aria-hidden="true"><span class="octicon octicon-link"></span></a>Text to SQL (or SQL to text):</h2>
+<ul>
+  <li>https://huggingface.co/datasets/spider</li>
+</ul>
+
+<h2 id="math-problems">
+<a class="anchor" href="#math-problems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Math problems</h2>
+<p><strong>very hard task, consult a TA before deciding to work on it</strong></p>
+<ul>
+  <li>https://huggingface.co/datasets/competition_math</li>
+</ul>
+
+  </div><a class="u-url" href="/nlp_class_2022/markdown/2022/04/06/Final-project-instructions.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/nlp_class_2022/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/nlp_class_2022/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>UMass Lowell COMP 4420/5420</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/text-machine-lab" target="_blank" title="text-machine-lab"><svg class="svg-icon grey"><use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/arumshisky" target="_blank" title="arumshisky"><svg class="svg-icon grey"><use xlink:href="/nlp_class_2022/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
