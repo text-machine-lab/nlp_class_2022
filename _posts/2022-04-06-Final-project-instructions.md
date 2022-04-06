@@ -25,7 +25,7 @@ Your project should contain the following elements:
 1. You should have a live demo of your model, i.e., a live interface where we would be able to enter input and view the output. You can use streamlit or gradio to create the demo.
 1. Any extra features/ideas implemented (such as back-translation, new decoding methods, data augmentation, ensembling models, using model predictions in a non-standard way, …, ask TA for more ideas) are a big plus and would count for extra points.
 
-Tips:
+### Tips:
 * Pay attention to your cloud credits. Not planning your compute utilization in advance or not tracking it can leave you without access to a cloud GPU (and DAN417 machines have a lot of issues). For example:
   * Do not spend 12 GPU hours verifying your HW5 works. Try to squeeze it into one or two hours.
   * If you are low on credits, plan accordingly and try to minimize the time you use the cloud. Test your code on your laptop before deploying it to the cloud.
@@ -33,9 +33,9 @@ Tips:
 
 # Milestones
 
-Every class starting next week will be splitted into two parts: lecture and final project work.
+Every class starting next week will be split into two parts: lecture and final project work.
 Each demonstration / document submission should be done on Tuesday during the final project work section of the class.
-You should do this **in person**, zoom submissions are possible only given a sufficient justificatoin and should be appproved a day before the class.
+You should do this **in person**, zoom submissions are possible only given a sufficient justification and should be approved a day before the class.
 
 1. **Apr 12:** Design document. A half-page summary of what you are planning to do. Google docs format with comments enabled. This document should contain
   * Who is working on the project (one or two people).
@@ -55,14 +55,13 @@ You should do this **in person**, zoom submissions are possible only given a suf
 1. **May 3:** Final presentations with a live demo of your model. A half-page project report that describes what you have learned and the contributions of each person who worked on the project.
 1. **After May 3:** Writeup submission. A 4-page conference paper-style writeup with introduction, related work, methods, and results sections. More details on that soon.
 
-# You will be evaluated on:
+## You will be evaluated on:
 * The quality of the presentation
-  * the slides are simple, clear, and convey the information you want, they do not contain a lot of visual clutter
-  * the presentation is well-researched, presenters know what 
-  * a good balance between technical aspects and 
+  * The slides are simple, clear, and convey the information you want, they do not contain a lot of visual clutter
+  * The presentation is well-rehearsed and intersting to watch
 * The quality of the demo:
-  * a nice Streamlit or Gradio demo is expected.
-  * a Jupyter or command-line demo is a big minus, but better than nothing
+  * A nice Streamlit or Gradio demo is expected
+  * A Jupyter or command-line demo is a big minus, but better than nothing
 * The quality of the model:
   * Is it able to solve the task at all?
   * Does it perform better than the model without a pre-trained component?
@@ -76,7 +75,7 @@ You should do this **in person**, zoom submissions are possible only given a suf
 * The quality of the writeup
   * Does your writeup clearly presents the problem you were trying to solve (e.g., , relevant related work you drew on
 
-# Recommended datasets
+## Recommended datasets
 Before deciding to work on a dataset (milestone 1) make sure it’s not too large and fits on your disk.
 You additionally need to analyze if the texts are not too large (>> 512 tokens).
 If they are too big, you need to figure out how to trim it or not to work on the dataset at all.
@@ -85,16 +84,16 @@ Note, that if the dataset is so large that one epoch takes more than some reason
 (wastes your cloud credits) and you are sure this is not a bug (e.g. GPU utilization is very close to 80-100%),
 you can train for less than one epoch, given that the final model perfomance is reasonable.
 
-## Translation:
+### Translation:
 * https://huggingface.co/datasets/code_x_glue_tt_text_to_text
 
-### Multilingual translation
+**Multilingual translation**
 **hard task, consult with a TA**
 
 * https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt
 * Feel free to find other translation datasets, but consult with a TA about them
 
-## Summarization:
+### Summarization:
 * https://huggingface.co/datasets/cnn_dailymail
 * https://huggingface.co/datasets/gigaword
 * https://huggingface.co/datasets/orange_sum
@@ -103,23 +102,23 @@ you can train for less than one epoch, given that the final model perfomance is 
 * https://huggingface.co/datasets/gem
 * https://huggingface.co/datasets/reddit
 
-### Long-document summarization
+**Long-document summarization**
 **hard task, consult with a TA**
 
 * https://huggingface.co/datasets/ccdv/arxiv-summarization
 * https://huggingface.co/datasets/ccdv/pubmed-summarization
 * https://huggingface.co/datasets/ccdv/govreport-summarization
 
-## Dialogue generation:
+### Dialogue generation:
 * https://huggingface.co/datasets/conv_ai_2
 
-## Code generation (or the opposite task of code explanation):
+### Code generation (or the opposite task of code explanation):
 * https://huggingface.co/datasets/code_x_glue_tc_text_to_code
 
-## Text to SQL (or SQL to text):
+### Text to SQL (or SQL to text):
 * https://huggingface.co/datasets/spider
 
-## Math problems
+### Math problems
 **very hard task, consult with a TA**
 
 * https://huggingface.co/datasets/competition_math
