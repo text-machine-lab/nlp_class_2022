@@ -98,11 +98,12 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h3"><a href="#tips">Tips:</a></li>
-<li class="toc-entry toc-h1"><a href="#milestones">Milestones</a>
+<li class="toc-entry toc-h1"><a href="#project-milestones">Project Milestones</a>
 <ul>
 <li class="toc-entry toc-h2"><a href="#you-will-be-evaluated-on">You will be evaluated on:</a></li>
-<li class="toc-entry toc-h2"><a href="#recommended-datasets">Recommended datasets</a>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#recommended-datasets">Recommended datasets</a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#translation">Translation:</a></li>
 <li class="toc-entry toc-h3"><a href="#summarization">Summarization:</a></li>
@@ -110,8 +111,6 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#code-generation-or-the-opposite-task-of-code-explanation">Code generation (or the opposite task of code explanation):</a></li>
 <li class="toc-entry toc-h3"><a href="#text-to-sql-or-sql-to-text">Text to SQL (or SQL to text):</a></li>
 <li class="toc-entry toc-h3"><a href="#math-problems">Math problems</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul><p>For your final project, you will need to extend your HW5 to produce a high-quality sequence-to-sequence system.
@@ -137,8 +136,7 @@ You need to provide a task description, dataset, metrics, and what codebase you 
   <li>Any extra features/ideas implemented (such as back-translation, new decoding methods, data augmentation, ensembling models, using model predictions in a non-standard way, …, ask TA for more ideas) are a big plus and would count for extra points.</li>
 </ol>
 
-<h3 id="tips">
-<a class="anchor" href="#tips" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tips:</h3>
+<p><strong>Tips</strong>:</p>
 <ul>
   <li>Pay attention to your cloud credits. Not planning your compute utilization in advance or not tracking it can leave you without access to a cloud GPU (and DAN417 machines have a lot of issues). For example:
     <ul>
@@ -149,8 +147,8 @@ You need to provide a task description, dataset, metrics, and what codebase you 
   <li>Ask questions if you are stuck. We expect you to make progress every week. If you are struggling with the same bug or facing the wall for a day, please seek help. Ask questions in #discussion or DM a TA. Arranging one-on-one meetings is also possible, but we have a limited capacity for that.</li>
 </ul>
 
-<h1 id="milestones">
-<a class="anchor" href="#milestones" aria-hidden="true"><span class="octicon octicon-link"></span></a>Milestones</h1>
+<h1 id="project-milestones">
+<a class="anchor" href="#project-milestones" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Milestones</h1>
 
 <p>Every class starting next week will be split into two parts: lecture and final project work.
 Each demonstration / document submission should be done on Tuesday during the final project work section of the class.
@@ -229,8 +227,8 @@ You should do this <strong>in person</strong>, zoom submissions are possible onl
   </li>
 </ul>
 
-<h2 id="recommended-datasets">
-<a class="anchor" href="#recommended-datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended datasets</h2>
+<h1 id="recommended-datasets">
+<a class="anchor" href="#recommended-datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recommended datasets</h1>
 <p>Before deciding to work on a dataset (milestone 1) make sure it’s not too large and fits on your disk.
 You additionally need to analyze if the texts are not too large (» 512 tokens).
 If they are too big, you need to figure out how to trim it or not to work on the dataset at all.
