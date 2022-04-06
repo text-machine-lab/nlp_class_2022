@@ -84,8 +84,11 @@ Note, that if the dataset is so large that one epoch takes more than some reason
 (wastes your cloud credits) and you are sure this is not a bug (e.g. GPU utilization is very close to 80-100%),
 you can train for less than one epoch, given that the final model perfomance is reasonable.
 
-### Translation:
+### Translation
 * https://huggingface.co/datasets/code_x_glue_tt_text_to_text
+
+### Question answering
+* https://huggingface.co/datasets/qasper
 
 **Multilingual translation**
 **hard task, consult with a TA**
@@ -93,7 +96,7 @@ you can train for less than one epoch, given that the final model perfomance is 
 * https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt
 * Feel free to find other translation datasets, but consult with a TA about them
 
-### Summarization:
+### Summarization
 * https://huggingface.co/datasets/cnn_dailymail
 * https://huggingface.co/datasets/gigaword
 * https://huggingface.co/datasets/orange_sum
@@ -109,13 +112,13 @@ you can train for less than one epoch, given that the final model perfomance is 
 * https://huggingface.co/datasets/ccdv/pubmed-summarization
 * https://huggingface.co/datasets/ccdv/govreport-summarization
 
-### Dialogue generation:
+### Dialogue generation
 * https://huggingface.co/datasets/conv_ai_2
 
-### Code generation (or the opposite task of code explanation):
+### Code generation (or the opposite task of code explanation)
 * https://huggingface.co/datasets/code_x_glue_tc_text_to_code
 
-### Text to SQL (or SQL to text):
+### Text to SQL (or SQL to text)
 * https://huggingface.co/datasets/spider
 
 ### Math problems
