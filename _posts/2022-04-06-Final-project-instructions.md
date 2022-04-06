@@ -25,13 +25,13 @@ Your project should contain the following elements:
 1. You should have a live demo of your model, i.e., a live interface where we would be able to enter input and view the output. You can use streamlit or gradio to create the demo.
 1. Any extra features/ideas implemented (such as back-translation, new decoding methods, data augmentation, ensembling models, using model predictions in a non-standard way, …, ask TA for more ideas) are a big plus and would count for extra points.
 
-### Tips:
+**Tips**:
 * Pay attention to your cloud credits. Not planning your compute utilization in advance or not tracking it can leave you without access to a cloud GPU (and DAN417 machines have a lot of issues). For example:
   * Do not spend 12 GPU hours verifying your HW5 works. Try to squeeze it into one or two hours.
   * If you are low on credits, plan accordingly and try to minimize the time you use the cloud. Test your code on your laptop before deploying it to the cloud.
 * Ask questions if you are stuck. We expect you to make progress every week. If you are struggling with the same bug or facing the wall for a day, please seek help. Ask questions in #discussion or DM a TA. Arranging one-on-one meetings is also possible, but we have a limited capacity for that.
 
-# Milestones
+# Project Milestones
 
 Every class starting next week will be split into two parts: lecture and final project work.
 Each demonstration / document submission should be done on Tuesday during the final project work section of the class.
@@ -75,7 +75,7 @@ You should do this **in person**, zoom submissions are possible only given a suf
 * The quality of the writeup
   * Does your writeup clearly presents the problem you were trying to solve (e.g., , relevant related work you drew on
 
-## Recommended datasets
+# Recommended datasets
 Before deciding to work on a dataset (milestone 1) make sure it’s not too large and fits on your disk.
 You additionally need to analyze if the texts are not too large (>> 512 tokens).
 If they are too big, you need to figure out how to trim it or not to work on the dataset at all.
