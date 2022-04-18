@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      9 min read
     
 </span></p>
 
@@ -115,6 +115,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#math-problems">Math problems</a></li>
 </ul>
 </li>
+<li class="toc-entry toc-h1"><a href="#suggestions-for-extra-points">Suggestions for extra points</a></li>
 </ul><p>For your final project, you will need to extend your HW5 to produce a high-quality sequence-to-sequence system.
 This could be machine translation, multilingual machine translation, summarization, dialogue generation, code generation, or another seq-to-seq task of your choice.
 We provide you with a list of recommended datasets at the end of this document.</p>
@@ -334,6 +335,15 @@ you can train for less than one epoch, given that the final model perfomance is 
 
 <ul>
   <li>https://huggingface.co/datasets/competition_math</li>
+</ul>
+
+<h1 id="suggestions-for-extra-points">
+<a class="anchor" href="#suggestions-for-extra-points" aria-hidden="true"><span class="octicon octicon-link"></span></a>Suggestions for extra points</h1>
+<ul>
+  <li>Train your model on a TPU. You will need to learn PyTorch XLA and adapt your code to static shapes. Demonstrate stable TPU utilization &gt;60%. One good thing about TPUs is that they are cheaper in terms of performance/$.</li>
+  <li>Implement backtranslation (it can be used not just for translation, but for any seq2seq task) and demonstrate that it improves your model performance compared to a model that doesn’t use backtranslation.</li>
+  <li>Perform human evaluation of 100-200 generated examples and compute the correlation between your opinion and the automated metrics.</li>
+  <li>Feel free to ask TA about any other ideas.</li>
 </ul>
 
   </div><a class="u-url" href="/nlp_class_2022/markdown/2022/04/06/Final-project-instructions.html" hidden></a>
