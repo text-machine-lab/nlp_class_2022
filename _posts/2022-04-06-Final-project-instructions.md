@@ -151,3 +151,9 @@ you can train for less than one epoch, given that the final model perfomance is 
 **a very hard task, consult with a TA**
 
 * https://huggingface.co/datasets/competition_math
+
+# Suggestions for extra points
+* Train your model on a TPU. You will need to learn PyTorch XLA and adapt your code to static shapes. Demonstrate stable TPU utilization >60%. One good thing about TPUs is that they are cheaper in terms of performance/$.
+* Implement backtranslation (it can be used not just for translation, but for any seq2seq task) and demonstrate that it improves your model performance compared to a model that doesn't use backtranslation.
+* Perform human evaluation of 100-200 generated examples and compute the correlation between your opinion and the automated metrics.
+* Feel free to ask TA about any other ideas.
