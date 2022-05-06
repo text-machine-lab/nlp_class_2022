@@ -83,7 +83,7 @@ You should submit a conference-style writeup of 4-6 pages. The writeup should be
 1. An abstract, describing briefly what you have done and results you obtained [1 paragraph]
 1. An introduction, a statement of the problem you are trying to address and a brief description of your solution.
 1. Related work section (can be folded into the introduction), which should include brief references to related work mentioning relevant results and methods that your work draws on.
-    1. Description of your methodology, including
+1. Description of your methodology, including
     1. Machine learning methods, including an explanation of variables and formulas
     1. A figure that illustrates your method
     1. Data sets used 
